@@ -1,0 +1,10 @@
+{
+  "name": "Fleet and Truck Movement Management System",
+  "description": "نظام إدارة حركة الشاحنات والأسطول، متابعة الردود والأوزان، تتبع الـ GPS المباشر، ومطابقة الوقود والمنصرفات والعهدة",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
