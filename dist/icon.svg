@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="110" fill="url(#grad)" />
+  <circle cx="256" cy="256" r="220" fill="none" stroke="#38bdf8" stroke-width="6" opacity="0.25" stroke-dasharray="16 12" />
+  
+  <!-- GPS Pulse Rings -->
+  <circle cx="360" cy="160" r="45" fill="none" stroke="#38bdf8" stroke-width="8" opacity="0.4"/>
+  <circle cx="360" cy="160" r="25" fill="none" stroke="#38bdf8" stroke-width="8" opacity="0.7"/>
+  <circle cx="360" cy="160" r="10" fill="#38bdf8"/>
+
+  <!-- Truck Body -->
+  <g transform="translate(60, 160)">
+    <!-- Main Cargo Container -->
+    <rect x="20" y="80" width="230" height="130" rx="14" fill="#f8fafc" />
+    <path d="M 50 95 L 50 195 M 95 95 L 95 195 M 140 95 L 140 195 M 185 95 L 185 195 M 225 95 L 225 195" stroke="#cbd5e1" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Cabin -->
+    <path d="M 255 110 L 305 110 L 335 150 L 340 210 L 255 210 Z" fill="url(#accent)" />
+    <!-- Windshield -->
+    <path d="M 270 120 L 300 120 L 325 155 L 270 155 Z" fill="#0f172a" />
+    <!-- Headlight -->
+    <rect x="330" y="180" width="12" height="16" rx="4" fill="#fef08a" />
+    
+    <!-- Wheels -->
+    <circle cx="75" cy="215" r="32" fill="#1e293b" stroke="#64748b" stroke-width="8"/>
+    <circle cx="75" cy="215" r="12" fill="#94a3b8"/>
+    
+    <circle cx="185" cy="215" r="32" fill="#1e293b" stroke="#64748b" stroke-width="8"/>
+    <circle cx="185" cy="215" r="12" fill="#94a3b8"/>
+
+    <circle cx="295" cy="215" r="32" fill="#1e293b" stroke="#64748b" stroke-width="8"/>
+    <circle cx="295" cy="215" r="12" fill="#94a3b8"/>
+  </g>
+</svg>
